@@ -202,7 +202,8 @@ const Game = () => {
         <img
           src={currentImage}
           alt="Imagem em sombra"
-          className={isCorrect || congrations ? "visible" : "darkened"} // Verifica se isCorrect ou congrations é true
+          className={isCorrect || congrations ? "visible" : "darkened"}
+          draggable="false"
         />
       </div>
 

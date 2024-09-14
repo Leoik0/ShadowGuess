@@ -50,6 +50,7 @@ const Home = () => {
           src={getCategoryImage(selectedCategory)}
           alt="Category"
           className="home-image"
+          draggable="false"
         />
       </div>
       <h1>Kage Guess</h1>
